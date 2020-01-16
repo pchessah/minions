@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Props from './components/Props'
+import State from './components/State'
+import Events from './components/Events';
+import Background from './components/Background';
+function App(props) {
+  const isLoggedIn = props.isLoggedIn
+  if(isLoggedIn){
+    return (
+      <div>
+        <Background/>
+      </div>
+    )
+  }
+  return <State />
+  
+    
+  
 }
+// setInterval(App, 2000)
 
 export default App;
