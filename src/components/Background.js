@@ -18,7 +18,7 @@ import Background2 from './Background2';
          
           }}
           how={50} /* Pass the number of images Sky will render chosing randomly */
-          time={1000} /* time of animation */
+          time={150} /* time of animation */
           size={'50px'} /* size of the rendered images */
           background={`url(${"https://images.wallpaperscraft.com/image/abstraction_patterns_dots_74033_1280x1024.jpg"})`} /* color of background */
         />
