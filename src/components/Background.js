@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import Sky from 'react-sky';
+import Background2 from './Background2';
 
 
-export default class Background extends Component {
+ class Background extends Component {
   render() {
     return (
       <div className="animation">
@@ -17,12 +18,16 @@ export default class Background extends Component {
          
           }}
           how={50} /* Pass the number of images Sky will render chosing randomly */
-          time={100} /* time of animation */
+          time={1000} /* time of animation */
           size={'50px'} /* size of the rendered images */
           background={`url(${"https://images.wallpaperscraft.com/image/abstraction_patterns_dots_74033_1280x1024.jpg"})`} /* color of background */
         />
+
+        {/* <button> Page Two of animation </button> */}
         
       </div>
     )
   }
 }
+
+export default Background;
