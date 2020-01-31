@@ -13,13 +13,14 @@ import Background2 from './Background2';
             /* FORMAT AS FOLLOWS */
             /* You can pass as many images as you want */
             0: "https://i.pinimg.com/564x/35/38/af/3538af6688589264fbc092aa7273d6e0.jpg",
+            1: "https://memepi.com/wp-content/uploads/2018/02/when-bae-asks-for-a-cute-nickname-660x300.jpg",
            
             
          
           }}
           how={50} /* Pass the number of images Sky will render chosing randomly */
           time={150} /* time of animation */
-          size={'50px'} /* size of the rendered images */
+          size={'30px'} /* size of the rendered images */
           background={`url(${"https://images.wallpaperscraft.com/image/abstraction_patterns_dots_74033_1280x1024.jpg"})`} /* color of background */
         />
 
