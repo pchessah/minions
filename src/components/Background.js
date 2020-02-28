@@ -12,7 +12,7 @@ import Background2 from './Background2';
           images={{
             /* FORMAT AS FOLLOWS */
             /* You can pass as many images as you want */
-            0: "https://i.pinimg.com/564x/35/38/af/3538af6688589264fbc092aa7273d6e0.jpg",
+            0: "https://cdn.vox-cdn.com/thumbor/WniJ_Qj9OiBjo4vDUnsEvOxNo3E=/0x0:2842x1470/1200x800/filters:focal(1209x317:1663x771)/cdn.vox-cdn.com/uploads/chorus_image/image/53961067/bossbabycover.0.jpg",
     
      
      
