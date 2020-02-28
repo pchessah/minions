@@ -13,7 +13,7 @@ import Background2 from './Background2';
             /* FORMAT AS FOLLOWS */
             /* You can pass as many images as you want */
             0: "https://i.pinimg.com/564x/35/38/af/3538af6688589264fbc092aa7273d6e0.jpg",
-     1: "https://scontent.febb3-1.fna.fbcdn.net/v/t1.0-9/s960x960/83523101_3178276418868835_6540322738890866688_o.jpg?_nc_cat=100&_nc_sid=110474&_nc_ohc=juHQVZGqsgkAX-cZPYD&_nc_ht=scontent.febb3-1.fna&_nc_tp=7&oh=a6081c5bde464c6fa97523dca96ea00b&oe=5EF960CC",
+    
      
      
             
